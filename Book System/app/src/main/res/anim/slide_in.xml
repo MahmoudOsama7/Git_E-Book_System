@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>      <!-- the delta x means the animation is in vertical slide like x axis , 0% means from the beginning p means the parent so the animation starts from 0% of the width of the parent layout duration is in milisecond  the slide in the next page , the slide out is the previous page -->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="-100%p"
+    android:toXDelta="0%p"
+    android:duration ="1000">
+</translate>
